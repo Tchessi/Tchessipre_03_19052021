@@ -1,3 +1,4 @@
+/* HAUT DE PADE */
 .header {
   &--withBackArrow {
     position: relative;
@@ -17,10 +18,10 @@
     color: black;
   }
 }
-
+/* MENU DES RESTAURANTS */
 .heroImg {
   max-width: 100%;
-  max-height: 20rem;
+  max-height: 32rem;
   width: 100%;
   object-fit: cover;
 }
@@ -69,12 +70,12 @@
       left: 0;
       height: 100%;
       width: 100%;
-      background: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
+      background: $gradient;
     }
   }
 
   &__like {
-    transition-duration: .25s;
+    transition-duration: .50s;
     background-color: #f6f6f6;
     position: absolute;
     top: 0;
@@ -220,7 +221,10 @@
   justify-content: center;
   padding: 3rem 0;
 }
+/* BOUTON DE COMMANDE */
 .commandBtn {
   @include button;
-  cursor: pointer; 
+  &:hover {
+  @include button-hover;
+  }
 }
