@@ -1,3 +1,4 @@
+/* LOADER */
 #loader {
   height: 100%;
   display: flex;
@@ -17,6 +18,7 @@
   animation-fill-mode: both;
   ul {
       display: flex;
+      padding-left: 0px;
       li {
           list-style: none;
           height: 20px;
@@ -28,7 +30,6 @@
       }
 
   }
-//   loading pade
   ul {
       li:nth-child(1) {
           animation-delay: 0.2s;
