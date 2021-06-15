@@ -4,8 +4,10 @@
   "description": "Projet 3 openclassroom",
   "main": "index.js",
   "scripts": {
-    "test": "sass --watch ./sass/main.scss:./sass/main.css"
+    "sass": "sass --watch ./sass/main.scss:./sass/main.css",
+    "prefix":"postcss ./sass/main.css --use autoprefixer -d ./sass/prefixed/" 
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "browserslist": "last 4 versions"
 }
