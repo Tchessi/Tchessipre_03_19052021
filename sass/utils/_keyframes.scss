@@ -1,23 +1,15 @@
-@keyframes itemAppear {
-  0% {
-    transform: scale(0)
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
 /* ANIMATION LOADING PAGE */
 @keyframes bounce {
-        0% {
-          transform: translateY(0px);
-        }
-        50% {
-          transform: translateY(-40px);
-        }
-        100% {
-          transform: translateY(0px);
-        }
-
+0% {
+  transform: translateY(0px);
+  }
+  50% {
+  transform: translateY(-40px);
+  }
+  100% {
+  transform: translateY(0px);
+  }
 }
 @keyframes loader {
   100% {
@@ -39,7 +31,12 @@
   100% {
     transform: translateY(0);
   }
-  // 0% {
-  //   transform: translateY(0);
-  // }
+}
+@keyframes itemAppear {
+  0% {
+    transform: scale(0)
+  }
+  100% {
+    transform: scale(1);
+  }
 }
