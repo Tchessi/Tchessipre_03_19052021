@@ -34,10 +34,9 @@
       &:hover {
       @include button-hover;
       } 
-  
     }
   }
-
+  
   .tuto {
     padding: ( $appPadding + 1rem ) $appPadding;
   
