@@ -27,7 +27,7 @@ body, html {
   transform: translateY(-50%);
   font-size: 1.2rem;
   color: black;
-  padding-top: 0px;
+  padding-top: 15px;
 }
 
 /* MENU DES RESTAURANTS */
@@ -137,7 +137,7 @@ body, html {
   display: flex;
   border-radius: 0.75rem;
   margin: 1rem 0;
-  box-shadow: 0.25rem 0.25rem 1rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 2px #80808034;
   overflow: hidden;
   cursor: pointer;
   -webkit-animation: itemAppear 0.9s;
@@ -268,7 +268,7 @@ body, html {
   background-image: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
   cursor: pointer;
   transition-duration: 0.25s;
-  box-shadow: 0px 0px 10px 2px #80808052;
+  box-shadow: 0px 0px 10px 2px #80808034;
   text-decoration: none;
 }
 .commandBtn:hover {
@@ -337,7 +337,7 @@ body, html {
   background-image: linear-gradient(0deg, #9356DC 0%, #FF79DA 100%);
   cursor: pointer;
   transition-duration: 0.25s;
-  box-shadow: 0px 0px 10px 2px #80808052;
+  box-shadow: 0px 0px 10px 2px #80808034;
   text-decoration: none;
 }
 .hero__btn:hover {
@@ -375,7 +375,7 @@ body, html {
 .tuto__step {
   padding: 1.5rem;
   margin: 1rem 0 1rem 0.75rem;
-  box-shadow: 0px 0px 10px 2px #80808052;
+  box-shadow: 0px 0px 10px 2px #80808034;
   border-radius: 1.25rem;
   background-color: #f6f6f6;
   display: flex;
@@ -447,7 +447,7 @@ body, html {
   text-decoration: none;
   color: inherit;
   display: block;
-  box-shadow: 0px 0px 10px 2px #80808052;
+  box-shadow: 0px 0px 10px 2px #80808034;
 }
 .card:hover {
   box-shadow: 0px 0px 15px 2px #80808085;
@@ -610,23 +610,6 @@ body, html {
   background-color: #9356DC;
 }
 
-@-webkit-keyframes itemAppear {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-
-@keyframes itemAppear {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 /* ANIMATION LOADING PAGE */
 @-webkit-keyframes bounce {
   0% {
@@ -688,5 +671,21 @@ body, html {
   }
   100% {
     transform: translateY(0);
+  }
+}
+@-webkit-keyframes itemAppear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes itemAppear {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
   }
 }/*# sourceMappingURL=main.css.map */
