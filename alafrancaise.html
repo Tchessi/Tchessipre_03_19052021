@@ -1,28 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ohmyfood</title>
-    <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./sass/main.css">
- 
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ohmyfood</title>
+  <!--LIAISON CSS-->
+  <link rel="stylesheet" href="./sass/main.css">
+  <!--FONT AWESOME-->
+  <script src="https://kit.fontawesome.com/7d17636476.js" crossorigin="anonymous"></script>
+  <!--GOOGLE FONT-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="loader"> <div class="loader__itemContainer"> <div class="loader__item loader__item--1"></div> <div class="loader__item loader__item--2"></div> <div class="loader__item loader__item--3"></div> </div> </div>
+  <!--HAUT DE PAGE-->
     <header class="header header--withBackArrow">
     <div class="restaurantContainer">
+  <!--RETOUR A LA PAGE D'ACCUEIL-->
       <a href="./index.html"><i class="fas fa-arrow-left header__arrow"></i></a>
+  <!--LOGO DU SITE-->
       <h1 class="header__logo">Ohmyfood</h1>
     </div>
   </header>
-
+  <!--IMAGE-->
   <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="" class="heroImg">
-
+  <!--MENU DU RESTAURANT-->
   <main class="menu container">
     <header class="menu__header">
       <h2 class="menu__title">A la française</h2>
+  <!--COEUR HOVER-->
       <button class="menu__btn">
         <i class="menu__like menu__like--noBg far fa-heart fa-2x"></i>
         <i class="menu__like menu__like--bg fas fa-heart fa-2x"></i>
@@ -31,6 +38,7 @@
 
     <div class="submenus">
       <section class="submenu">
+  <!--LES ENTREES-->
         <h3 class="submenu__title">Entrées</h3>
         <section class="menuItem delay-0">
           <header class="menuItem__header">
@@ -71,7 +79,7 @@
           </div>
         </section>
       </section>
-  
+  <!--lES PLATS-->      
       <section class="submenu">
         <h3 class="submenu__title">Plats</h3>
         <section class="menuItem delay-3">
@@ -113,7 +121,7 @@
           </div>
         </section>
       </section>
-  
+  <!--LES DESSERTS-->
       <section class="submenu">
         <h3 class="submenu__title">Desserts</h3>
         <section class="menuItem delay-6">
@@ -156,12 +164,12 @@
         </section>
       </section>
     </div>
-
+  <!--BOUTON DE COMMANDE-->
     <div class="wrapBtn">
       <button class="commandBtn">Commander</button>
     </div>
   </main>
-
+  <!--PIED DE PAGES-->
   <footer class="footer">
     <div class="container">
       <span class="footer__logo">ohmyfood</span>
