@@ -195,7 +195,7 @@ body, html {
   justify-content: center;
   border-radius: 100px;
   transform: rotate(-360deg);
-  transition-duration: 0.5s;
+  transition: transform 500ms ease-in-out;
 }
 .menuItem:hover .menuItem__wrapIcon {
   transform: rotate(0);
@@ -318,6 +318,7 @@ body, html {
   padding: 2rem;
   text-align: center;
   background-color: #fafafa;
+  transition-duration: 0.5s;
 }
 .hero__title {
   margin: 0;
@@ -380,6 +381,7 @@ body, html {
   background-color: #f6f6f6;
   display: flex;
   position: relative;
+  transition-duration: 0.3s;
 }
 .tuto__step:hover {
   background-color: #d579ff2a;
@@ -558,8 +560,8 @@ body, html {
   opacity: 90%;
   justify-content: center;
   align-items: center;
-  -webkit-animation: loader 0.01s;
-          animation: loader 0.01s;
+  -webkit-animation: loader 0.3s;
+          animation: loader 0.3s;
   -webkit-animation-delay: 1.75s;
           animation-delay: 1.75s;
   -webkit-animation-fill-mode: both;
